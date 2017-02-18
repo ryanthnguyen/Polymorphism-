@@ -1,12 +1,6 @@
 #BlueJ class context
 comment0.params=
-comment0.target=void\ setPCCost()
-comment1.params=
-comment1.target=void\ setLaptopCost()
-comment2.params=checkType
-comment2.target=boolean\ PCOrLaptop(java.lang.String)
-comment3.params=
-comment3.target=int\ getCost()
-comment4.params=kind\ typeProcessor\ ram\ hhd\ vRam\ screen
-comment4.target=Computer(java.lang.String,\ java.lang.String,\ double,\ double,\ double,\ double)
-numComments=5
+comment0.target=double\ getCost()
+comment1.params=kind\ typeProcessor\ ram\ hhd
+comment1.target=Computer(java.lang.String,\ java.lang.String,\ double,\ double)
+numComments=2

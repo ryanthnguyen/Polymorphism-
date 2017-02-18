@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=s\ processor\ ram\ hardDrive\ vRam
+comment0.target=PC(java.lang.String,\ java.lang.String,\ int,\ int,\ int)
+comment1.params=
+comment1.target=void\ setPCCost()
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=double\ getCost()
+numComments=4
