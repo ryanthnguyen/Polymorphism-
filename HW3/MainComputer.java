@@ -6,7 +6,6 @@ public class MainComputer
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
-<<<<<<< HEAD
         String kind = "";
         int RAM = 0;
         int hhd = 0;
@@ -79,19 +78,4 @@ public static void sorting(Comparable[] computers)
     }
     
 }
-=======
-        Computer[] computers = new Computer[5];
-        for (int i = 0;i < computers.length; i++)
-        {
-            System.out.println("Would you like a desktop or a laptop? ");
-            String kind = input.nextLine():
-            if (kind == "Desktop" || kind == "PC")
-            {
-                System.out.println("What kind of processor would you like? ");
-                String processor = input.nextLine();
-                System.out.println("What 
-            }
-        }
-    }
->>>>>>> 2cd74ac0b3d16214dd4aa117d707adacab9663a4
 }
