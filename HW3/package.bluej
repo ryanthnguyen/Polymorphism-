@@ -2,6 +2,7 @@
 dependency1.from=MainComputer
 dependency1.to=Computer
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 dependency2.from=MainComputer
 dependency2.to=PC
 dependency2.type=UsesDependency
@@ -22,6 +23,16 @@ package.editor.x=-7
 package.editor.y=0
 package.numDependencies=5
 package.numTargets=5
+=======
+objectbench.height=100
+objectbench.width=938
+package.editor.height=849
+package.editor.width=840
+package.editor.x=383
+package.editor.y=50
+package.numDependencies=1
+package.numTargets=4
+>>>>>>> 2cd74ac0b3d16214dd4aa117d707adacab9663a4
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
@@ -29,10 +40,17 @@ readme.editor.height=700
 readme.editor.width=900
 readme.editor.x=0
 readme.editor.y=0
+<<<<<<< HEAD
 target1.editor.height=840
 target1.editor.width=1552
 target1.editor.x=-8
 target1.editor.y=-8
+=======
+target1.editor.height=846
+target1.editor.width=974
+target1.editor.x=946
+target1.editor.y=60
+>>>>>>> 2cd74ac0b3d16214dd4aa117d707adacab9663a4
 target1.height=50
 target1.name=Laptop
 target1.naviview.expanded=true
@@ -42,6 +60,7 @@ target1.typeParameters=
 target1.width=80
 target1.x=10
 target1.y=200
+<<<<<<< HEAD
 target2.editor.height=700
 target2.editor.width=900
 target2.editor.x=33
@@ -94,3 +113,43 @@ target5.typeParameters=
 target5.width=140
 target5.x=160
 target5.y=20
+=======
+target2.editor.height=1047
+target2.editor.width=974
+target2.editor.x=-7
+target2.editor.y=0
+target2.height=50
+target2.name=PC
+target2.naviview.expanded=true
+target2.showInterface=false
+target2.type=ClassTarget
+target2.typeParameters=
+target2.width=80
+target2.x=380
+target2.y=200
+target3.editor.height=1047
+target3.editor.width=974
+target3.editor.x=953
+target3.editor.y=0
+target3.height=50
+target3.name=MainComputer
+target3.showInterface=false
+target3.type=ClassTarget
+target3.typeParameters=
+target3.width=110
+target3.x=150
+target3.y=240
+target4.editor.height=840
+target4.editor.width=1552
+target4.editor.x=-1809
+target4.editor.y=320
+target4.height=70
+target4.name=Computer
+target4.naviview.expanded=true
+target4.showInterface=false
+target4.type=AbstractTarget
+target4.typeParameters=
+target4.width=140
+target4.x=160
+target4.y=20
+>>>>>>> 2cd74ac0b3d16214dd4aa117d707adacab9663a4

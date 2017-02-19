@@ -2,9 +2,14 @@
 comment0.params=
 comment0.target=double\ getCost()
 comment1.params=kind\ typeProcessor\ ram\ hhd
+<<<<<<< HEAD
 comment1.target=Computer(java.lang.String,\ java.lang.String,\ int,\ int)
 comment2.params=
 comment2.target=java.lang.String\ getProcessor()
 comment3.params=c
 comment3.target=double\ compareTo(Comparable)
 numComments=4
+=======
+comment1.target=Computer(java.lang.String,\ java.lang.String,\ double,\ double)
+numComments=2
+>>>>>>> 2cd74ac0b3d16214dd4aa117d707adacab9663a4
