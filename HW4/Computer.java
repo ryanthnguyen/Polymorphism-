@@ -2,7 +2,6 @@
 //Computer abstract class
 public abstract class Computer implements Comparable 
 {
-   private String kindOfComputer;
    protected String processor = "";
    protected int RAM = 0;
    protected int hardDrive = 0;
@@ -27,5 +26,5 @@ public abstract class Computer implements Comparable
                 return -1;
            else
                 return 0;
-            }
+   }
    }

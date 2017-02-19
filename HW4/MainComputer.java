@@ -54,28 +54,26 @@ public class MainComputer
                         computers[i] = new Laptop(kind, laptopProcessor, RAM, hhd, screenSize);
                
             }
-    }
-    for (int i = 0; i < computers.length;i++)
-    {
-        sorting(computers);
-        System.out.println(computers[i]);
-    } 
-    System.out.println();
-}
-public static void sorting(Comparable[] computers)
-{
-    for (int i = 0; i < 2;i++)
-    {
-        for (int j = 0; j < 2 - 1;j++)
-        {
-            if (computers[i].compareTo(computers[i+1]) > 0)
-            {
-                Comparable temp = computers[i];
-                computers[i] = computers[i+1];
-                computers[i+1] = temp;
-            }
         }
+        System.out.println();
+        for (int i = 0; i < computers.length;i++)
+        {
+            sorting(computers);
+            System.out.println(computers[i]);
+            System.out.println();
+        } 
+}
+public static void sorting(Comparable[] c)
+{
+    for (int i = 0; i < c.length;i++)
+    {
+       for (int j = 0; j < c.length - 1;j++)
+       if (c[j].compareTo(c[j+1]) > 0)
+            {
+                Comparable temp = c[j];
+                c[j] = c[j+1];
+                c[j+1] = temp;
+            }
     }
-    
 }
 }

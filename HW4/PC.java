@@ -2,7 +2,7 @@
 //PC Class
 public class PC extends Computer
 {
-   private double videoRam = 0;
+   private int videoRam = 0;
    private double PCCost = 0;
    public PC(String s, String processor, int ram, int hardDrive, int vRam)
    {
